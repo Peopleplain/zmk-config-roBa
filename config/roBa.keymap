@@ -42,7 +42,7 @@
         };
 
         muhenkan_n_to_num {
-            bindings = <&to 5>;
+            bindings = <&to 2>;
             key-positions = <39 29>;
         };
 
@@ -75,7 +75,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-
     };
 
     keymap {
