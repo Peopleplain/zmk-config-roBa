@@ -33,7 +33,7 @@
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp AT>;
             key-positions = <20 21>;
         };
 
@@ -99,10 +99,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                            &kp EXCLAMATION       &kp HASH               &kp LS(EQUAL)      &kp SQT            &kp SEMICOLON
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp LS(INTERNATIONAL_1)  &kp EQUAL             &kp CARET              &kp DOLLAR         &kp PERCENT        &kp INTERNATIONAL_3
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp LS(N8)               &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans                   &trans                                                                             &kp INTERNATIONAL_1
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                            &kp EXCLAMATION  &kp HASH               &kp LS(EQUAL)      &kp SQT            &kp SEMICOLON
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp LS(INTERNATIONAL_1)  &kp EQUAL        &kp CARET              &kp DOLLAR         &kp PERCENT        &kp INTERNATIONAL_3
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp LS(N8)               &kp LS(N9)       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp RIGHT_BRACKET  &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans                   &trans                                                                        &kp INTERNATIONAL_1
             >;
         };
 
