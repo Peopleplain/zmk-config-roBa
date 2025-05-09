@@ -104,10 +104,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS                                                            &kp EXCLAMATION  &kp HASH               &kp LS(EQUAL)      &kp SQT            &kp SEMICOLON
-&kp SLASH                   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp LS(INTERNATIONAL_1)  &kp EQUAL        &kp CARET              &kp DOLLAR         &kp PERCENT        &kp INTERNATIONAL_3
-&mt LEFT_SHIFT KP_NUMBER_0  &kp N7        &kp N8        &kp N9        &kp PERIOD    &kp EQUAL                    &kp LS(N8)               &kp LS(N9)       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans                      &trans        &kp N0        &trans        &trans        &trans                       &trans                   &trans                                                                        &kp LS(INT_YEN)
+&kp MINUS                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(SEMICOLON)                                                        &kp EXCLAMATION  &kp HASH               &kp LS(EQUAL)      &kp SQT            &kp SEMICOLON
+&kp SLASH                   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(SQT)        &kp LC(LA(KP_NUMBER_0))      &kp LS(INTERNATIONAL_1)  &kp EQUAL        &kp CARET              &kp DOLLAR         &kp PERCENT        &kp INTERNATIONAL_3
+&mt LEFT_SHIFT KP_NUMBER_0  &kp N7        &kp N8        &kp N9        &kp PERIOD         &kp EQUAL                    &kp LS(N8)               &kp LS(N9)       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp RIGHT_BRACKET  &kp BACKSLASH
+&trans                      &trans        &kp N0        &trans        &trans             &trans                       &trans                   &trans                                                                        &kp LS(INT_YEN)
             >;
         };
 
