@@ -84,10 +84,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &lt 5 O  &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp LEFT_BRACKET
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LC(C)                          &kp LC(V)      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 7 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R                          &kp T                                                        &kp Y        &kp U  &lt 5 I    &lt 5 O  &kp P
+&kp A             &kp S         &kp D         &kp F                          &kp G        &kp LS(LG(S))                    &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp LEFT_BRACKET
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &kp LC(C)                        &kp LC(V)      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_HENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -113,10 +113,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp UP_ARROW            &kp END          &kp LC(TAB)  &trans                      &trans  &trans  &trans  &trans  &trans
-&kp LEFT_ARROW  &kp DOWN_ARROW          &kp RIGHT_ARROW  &trans       &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans           &trans       &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans           &trans       &trans  &trans      &trans  &trans                          &trans
+&kp ESCAPE      &trans                  &kp UP_ARROW    &kp LC(TAB)      &trans                      &trans  &trans  &trans  &trans  &trans
+&trans          &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &trans           &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans          &trans           &trans  &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
