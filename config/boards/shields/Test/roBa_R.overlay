@@ -23,7 +23,7 @@
 
         input-processors = <&zip_temp_layer 5 10000>;
     };
-
+};
 
 
 
@@ -83,6 +83,6 @@
     };
 };
 
-};
+
 
 
