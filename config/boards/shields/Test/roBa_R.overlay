@@ -1,8 +1,11 @@
 #include <input/processors.dtsi>
+#include "roBa.dtsi"
+
 / {
     /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
+        require-prior-idle-ms = <200>;
         excluded-positions = <
             18 // J
             19 // K
@@ -12,12 +15,7 @@
             7
         >;
     };
-/ {
-    /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
-        require-prior-idle-ms = <200>;
-    };
+    
 
     trackball_listener {
         compatible = "zmk,input-listener";
@@ -25,9 +23,9 @@
 
         input-processors = <&zip_temp_layer 5 10000>;
     };
-};
 
-#include "roBa.dtsi"
+
+
 
 &default_transform {
     col-offset = <6>;
@@ -43,13 +41,7 @@
             ;
 };
 
-/ {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
 
-    };
-};
 
 &pinctrl {
     spi0_default: spi0_default {
@@ -89,6 +81,8 @@
         // automouse-layer = <4>;
         scroll-layers = <5>;
     };
+};
+
 };
 
 
