@@ -46,6 +46,11 @@
             bindings = <&kp AMPERSAND>;
             key-positions = <19 20>;
         };
+
+        d {
+            bindings = <&kp A>;
+            key-positions = <20 18 19 8 9 7>;
+        };
     };
 
     macros {
