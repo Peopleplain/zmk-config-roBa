@@ -56,14 +56,7 @@
 
     };
 
-    macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
-        };
-    };
+
 
     macros {
         exit_AML: exit_AML {
@@ -82,6 +75,12 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &exit_AML>;
             label = "KP_exit_AML";
+        };
+        to_layer_0: to_layer_0 {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            label = "TO_LAYER_0";
         };
     };
 
